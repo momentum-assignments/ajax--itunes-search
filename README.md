@@ -31,7 +31,7 @@ You'll run a development server in this project using `live-server`. Be sure to 
 
 There will be some new concepts you'll need to work through on this project, so don't hesitate to ask for assistance along the way.
 
-- [iTunes API documents](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1)
+- [iTunes API documentation](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1)
   - Read through the documentation before getting started. Everything you'll need to know is in there.
   - Use Insomnia to make requests to the API to test out the URLs you will need to construct and see data that is returned.
 - Playing a song preview
