@@ -45,6 +45,7 @@ One hard part will be getting the song to play. Since you will be dynamically ge
 
 - Add a radio button to switch the search between artist, song title, or album title.
 - Style your site so that it looks good on mobile screens as well as the desktop.
+- Create a way to toggle light/dark modes on your site. Allow your user to save their preferences by using [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API).
 - Deploy your site using [GitHub Pages! 🚀](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/getting-started-with-github-pages)
 Publishing your project site using GitHub pages is pretty straightforward:
   - Make sure you have an `index.html` file at the root of your project.
