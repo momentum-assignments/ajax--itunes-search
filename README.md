@@ -27,6 +27,7 @@ Here are the steps you'll need to take in order to complete this project.
 ### Setup with `npm`
 
 You'll run a development server in this project using `live-server`. Be sure to `npm install` after cloning this repo. Then run `npm start` to run your server.
+
 ### Hints & Tips
 
 There will be some new concepts you'll need to work through on this project, so don't hesitate to ask for assistance along the way.
@@ -43,13 +44,14 @@ One hard part will be getting the song to play. Since you will be dynamically ge
 
 ### 🌶️ Spicy Options
 
-- Add a radio button to switch the search between artist, song title, or album title.
+- Add a radio button or a drop down menu to switch the search between artist, song title, or album title.
 - Style your site so that it looks good on mobile screens as well as the desktop.
 - Create a way to toggle light/dark modes on your site. Allow your user to save their preferences by using [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API).
-- Deploy your site using [GitHub Pages! 🚀](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/getting-started-with-github-pages)
-Publishing your project site using GitHub pages is pretty straightforward:
+- Deploy your site using [GitHub Pages! 🚀](https://docs.github.com/en/pages)
+  Publishing your project site using GitHub pages is pretty straightforward:
   - Make sure you have an `index.html` file at the root of your project.
-  - Create a branch called `gh-pages` (this is the default publishing source for GitHub pages).
-  - Push your code to this branch (`git push origin gh-pages`).
-  - View your site at `https://<user>.github.io/<repository>` (replacing the bracketed values with your github username and repository name).
-  - ⚠️ NOTE: you will have to push your code to *both* the `main` branch and `gh-pages` branch. For this reason, it will be easiest to deploy your site after you've pushed your final commit.
+  - Push your code to GitHub.
+  - Go to the settings tab for your repository on GitHub.
+    - Under the "Code & Automation" heading in the sidebar, click on **Pages**.
+    - Select a source for your GitHub Pages site: from the dropdown menu where it says "None", select the `main` branch. Click **Save**.
+  - A blue box will show up with the URL for your now live site!
